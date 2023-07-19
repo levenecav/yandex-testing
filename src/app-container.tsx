@@ -6,7 +6,7 @@ import { ReactComponent as ShareIcon } from './icons/share.svg';
 import { ReactComponent as EditIcon } from './icons/edit.svg';
 import { ReactComponent as TrashIcon } from './icons/trash.svg';
 import type { DropdownItem } from './@types/dropdown-menu';
-import s from './app.module.scss';
+import s from 'src/app-container.module.scss';
 
 const items: DropdownItem[] = [
   { key: '1', label: 'Поделиться в социальных сетях', icon: <ShareIcon />, onClick: () => { console.log('click to first item'); } },
@@ -14,7 +14,7 @@ const items: DropdownItem[] = [
   { key: '3', label: 'Удалить страницу', icon: <TrashIcon />, onClick: () => { console.log('click to third item'); } },
 ];
 
-const App: React.FC = React.memo(() => {
+const AppContainer: React.FC = React.memo(() => {
   return (
     <div className={s.root}>
       <div className={s.body}>
@@ -65,4 +65,4 @@ const App: React.FC = React.memo(() => {
   );
 });
 
-export default App;
+export default AppContainer;
