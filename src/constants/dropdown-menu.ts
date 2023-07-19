@@ -1,0 +1,14 @@
+export enum DROPDOWN_TRIGGER {
+  CLICK = 'CLICK',
+  HOVER = 'HOVER',
+}
+
+export enum DROPDOWN_VERTICAL_POSITION {
+  UP = 'UP',
+  DOWN = 'DOWN',
+}
+
+export enum DROPDOWN_HORIZONTAL_POSITION {
+  LEFT = 'LEFT',
+  RIGHT = 'RIGHT',
+}

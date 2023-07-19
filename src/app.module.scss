@@ -1,0 +1,44 @@
+.root {
+    height: 100%;
+    padding: 50px 50px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+.body {
+    position: relative;
+    height: 100%;
+}
+
+.center,
+.leftTopMenu,
+.leftBottomMenu,
+.rightTopMenu,
+.rightBottomMenu {
+    position: absolute;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+}
+
+.leftTopMenu {
+    top: 0;
+    left: 0;
+}
+
+.leftBottomMenu {
+    bottom: 0;
+    left: 0;
+}
+
+.rightTopMenu {
+    top: 0;
+    right: 0;
+}
+
+.rightBottomMenu {
+    bottom: 0;
+    right: 0;
+}
